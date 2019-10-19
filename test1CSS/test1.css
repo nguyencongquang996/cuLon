@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: tomato 100px no-repeat;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    background-color: yellow;
+}
+.menu a{
+    padding: 10px;
+}
+.main-title{
+    text-align: center;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
